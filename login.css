@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/145/842/small/making-purchases-via-internet-browser-3d-banner-with-copy-space-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form{
+    width: 400px;
+}
+
+fieldset{
+    border: none;
+    padding: 40px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+legend{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff4d6d, #c9184a);
+    background-clip: text;
+    color: transparent;
+    padding: 10px 20px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+input{
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    border: 2px solid #ffd6e0;
+    border-radius: 14px;
+    outline: none;
+    background: #fffafb;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus{
+    border-color: #ff4d6d;
+    box-shadow: 0 0 10px rgba(255,77,109,0.3);
+}
+
+button{
+    width: 48%;
+    padding: 13px;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:first-of-type{
+    background: linear-gradient(to right, #ff4d6d, #ff758f);
+}
+
+
+button:first-of-type:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255,77,109,0.4);
+}
+
+
+button:last-of-type{
+    float: right;
+    background: linear-gradient(to right, #8338ec, #c77dff);
+}
+
+
+button:last-of-type:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(131,56,236,0.4);
+}
